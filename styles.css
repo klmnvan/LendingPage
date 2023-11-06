@@ -36,14 +36,17 @@ body{
     align-items: center;
 }
 
-.ul-sections>li>img{
+.ul-sections>li:first-child:before{
+    content: "";
+    display: inline-block;
     width: 15px;
     height: 15px;
-    object-fit: cover;
-}
-
-.ul-sections>li>span{
-    padding-left: 10px;
+    color: #481B68;
+    background-image: url(src/treetochki.svg);
+    background-size: cover;
+    flex: 1 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .div-phone{
@@ -58,25 +61,29 @@ body{
 }
 
 .button-phone{
-    display: flex;
     margin-left: 20px;
     border-radius: 30px;
     background-color:#E2DBD4;
     border: 2px solid #481B68;
     padding: 15px;
+    font-size: 13px;
+    color: #481B68;
+    margin-right: 10px;
     display: flex;
     align-items: center;
 }
 
-.button-phone>img{
+.button-phone::before{
+    content: "";
+    display: inline-block;
     width: 15px;
-    object-fit: cover;
-}
-
-.button-phone>span{
-    margin-left: 10px;
-    font-size: 13px;
+    height: 15px;
     color: #481B68;
+    background-image: url(src/🦆\ icon\ _phone_.svg);
+    background-size: cover;
+    flex: 1 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .content-div{
