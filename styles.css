@@ -5,7 +5,7 @@ body{
     background-attachment: fixed; */
     line-height: 1;
 }
-.main-div{
+.main-screen{
     background-color: #E2DBD4;
     padding-left: 200px;
     padding-right: 200px;   
@@ -86,32 +86,32 @@ body{
     margin-right: 10px;
 }
 
-.content-div{
+.content-main{
     margin-top: 30px;
     flex: 1;
     display: flex;
     justify-content: space-between;
 }
 
-.info-div{
+.info{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     width: 400px;
 }
 
-.info-div>h1{
+.info>h1{
     font-size: 40px;
     color: #481B68;
 }
 
-.info-div>h2{
+.info>h2{
     margin-top: 40px;
     font-size: 16px;
     color: #481B68;
 }
 
-.info-div>button{
+.info>button{
     margin-top: 40px;
     width: 250px;
     align-content: start;
@@ -122,32 +122,26 @@ body{
     font-size: 13px;
 }
 
-.info-div>h3{
+.info>h3{
     font-size: 15px;
     margin-top: auto;
     margin-bottom: 30px;
 }
 
-.div-main-image{
+.image-main-middle{
     display: flex;
     flex-direction: column;
     justify-content: end;
     padding-left: 40px;
-}
-
-.image-main-middle{
     width: 700px;
     height: 700px;
 }
 
-.div-end-vector{
+.image-main-end{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 20px;
-}
-
-.image-main-end{
     height: 600px;
     object-fit: cover;
 }
